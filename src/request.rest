@@ -1,0 +1,1 @@
+GET https://api.unsplash.com/search/photos/?client_id=_4ZfPALMDJr4V4YWgfDVoiu6WzhE_pVp5XckGlGNp8M&per_page=8&order_by=latest&query=african
