@@ -9,10 +9,12 @@
   align-items: center;
 }
 .search {
+  position: relative;
   justify-content: left;
-  padding-left: 10%;
 }
 .search-heading {
+  position: absolute;
+  left: 5%;
   color: #253858;
   text-align: left !important;
 
@@ -33,7 +35,7 @@
     color: #99a2b1;
   }
   input {
-    height: inherit;
+    height: 100%;
     width: 100%;
     border: none;
     appearance: none;

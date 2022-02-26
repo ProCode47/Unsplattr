@@ -50,8 +50,8 @@ const Home = () => {
       {modal && <Modal closeModal={closeModal} info={modalInfo} />}
 
       {/* Home Header */}
-      <div className="header">
-        <span className="wrapper">
+      <div className="header header-sm">
+        <span className="wrapper wrapper-sm">
           {" "}
           <i className="fas fa-search"> </i>{" "}
           <input
@@ -66,7 +66,7 @@ const Home = () => {
 
       {/* Conditional for Content */}
       {imageData && (
-        <div className="grid column-sm">
+        <div className="grid column-sm grid-sm">
           {imageData &&
             imageData.map((image, index) => (
               <Card
@@ -82,7 +82,7 @@ const Home = () => {
 
       {/* Conditional for Placeholders */}
       {!imageData && (
-        <div className="grid column-sm">
+        <div className="grid column-sm grid-sm">
           <Placeholder />
           <Placeholder />
           <Placeholder />
