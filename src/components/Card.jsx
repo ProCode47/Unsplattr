@@ -11,7 +11,7 @@ const Card = ({ image, location, name, openModal }) => {
   return (
     <>
       <div
-        className={`size${tileValue} item`}
+        className={`size${tileValue} item item-sm`}
         onClick={() => openModal({ image, name, location })}
       >
         <div className="overlay"></div>

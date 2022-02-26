@@ -4,8 +4,10 @@
     .column-sm{
         display: flex !important;
         flex-direction: column !important;
-        justify-content: space-evenly;
         transform: translateY(0px) !important;
+    }
+    .item-sm{
+        margin-bottom: 15px;
     }
     .header-sm{
         height: 21vh !important;
