@@ -4,6 +4,7 @@
     .column-sm{
         display: flex !important;
         flex-direction: column !important;
+        justify-content: space-evenly;
         transform: translateY(0px) !important;
     }
     .header-sm{
