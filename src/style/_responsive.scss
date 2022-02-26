@@ -3,11 +3,14 @@
 
     .column-sm{
         display: flex !important;
+        width: 100% !important;
+        align-items: center;
         flex-direction: column !important;
-        transform: translateY(0px) !important;
+        transform: translateY(10px) !important;
     }
     .item-sm{
         margin-bottom: 15px;
+        width: 85% !important;
     }
     .header-sm{
         height: 21vh !important;
@@ -15,8 +18,6 @@
     .wrapper-sm{
         height: 40% !important;
     }
-    .grid-sm{
-        transform: translateY(10px) !important;
-    }
+    
     
 }

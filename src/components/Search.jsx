@@ -6,6 +6,8 @@ import { useParams } from "react-router-dom";
 import Card from "./Card";
 import Modal from "./Modal";
 import Placeholder from "./Placeholder";
+import Footer from "./Footer";
+
 
 const Search = props => {
   const [imageData, setImageData] = useState(null);
@@ -86,6 +88,7 @@ const Search = props => {
           </div>
         </>
       )}
+      <Footer/>
     </>
   );
 };

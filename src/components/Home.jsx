@@ -6,6 +6,8 @@ import { useNavigate } from "react-router-dom";
 import Placeholder from "./Placeholder";
 import Card from "./Card";
 import Modal from "./Modal";
+import Footer from "./Footer";
+
 
 const Home = () => {
   const navigate = useNavigate();
@@ -66,7 +68,7 @@ const Home = () => {
 
       {/* Conditional for Content */}
       {imageData && (
-        <div className="grid column-sm grid-sm">
+        <div className="grid column-sm">
           {imageData &&
             imageData.map((image, index) => (
               <Card
@@ -82,7 +84,7 @@ const Home = () => {
 
       {/* Conditional for Placeholders */}
       {!imageData && (
-        <div className="grid column-sm grid-sm">
+        <div className="grid column-sm">
           <Placeholder />
           <Placeholder />
           <Placeholder />
@@ -91,6 +93,7 @@ const Home = () => {
           <Placeholder />
         </div>
       )}
+      <Footer/>
     </>
   );
 };

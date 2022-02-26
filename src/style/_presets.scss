@@ -18,6 +18,8 @@ html {
   box-sizing: border-box;
   text-rendering: optimizeLegibility;
   scroll-behavior: smooth;
+  overflow-x: hidden;
+
 
   @media only screen and (max-width: 62.5em) {
     // tab-landscape

@@ -167,4 +167,19 @@
     }
   }
 }
+.footer{
+  background-color: #DDE2E9;
+  display: flex;
+  height: fit-content;
+  padding: 15px;
+  justify-content: center;
+  margin-top: 4rem;
+  a{
+    text-decoration: none;
+    color: #253858;
+  }
+  .fa-heart{
+    color: #253858;
+  }
+}
 
