@@ -8,14 +8,10 @@
   justify-content: center;
   align-items: center;
 }
-.search {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+
 .search-heading {
   color: #253858;
-  text-align: left !important;
+  text-align: center;
 
   b {
     color: #6d7b91;
@@ -42,6 +38,7 @@
     font-size: 1.9rem;
     padding-right: 10px;
     color: #53627b;
+    border-radius: 5px 5px;
   }
 }
 
@@ -155,6 +152,7 @@
       justify-content: center;
       flex-direction: column;
       padding-left: 5%;
+      padding-bottom: 5px;
       height: 20%;
       h2 {
         color: rgb(48, 54, 65);

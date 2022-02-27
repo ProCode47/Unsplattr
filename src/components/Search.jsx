@@ -49,7 +49,7 @@ const Search = props => {
       {!imageData && (
         <>
           {" "}
-          <div className="header search">
+          <div className="header">
             <h1 className="search-heading">
               {" "}
               Searching for <b>"{search}"</b>
@@ -69,8 +69,8 @@ const Search = props => {
       {/* Conditional for Content */}
       {imageData && (
         <>
-          <div className="header search header-sm">
-            <h1 className="search-heading wrapper-sm">
+          <div className="header header-sm">
+            <h1 className="search-heading">
               {" "}
               Search Results for <b>"{search}"</b>
             </h1>
